@@ -1,0 +1,50 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        display: none;
+
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+        position: relative;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+    }
+
+    .header__title {
+        align-items: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+    }
+
+    .header__title p::before,
+    .header__title p::after {
+        display: none;
+    }
+
+    .main__content {
+        flex-direction: column;
+        margin-left: -3px;
+    }
+
+    .main__content_cube {
+        margin-top: 10px;
+    }
+}
