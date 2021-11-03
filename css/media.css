@@ -41,10 +41,15 @@
 
     .main__content {
         flex-direction: column;
-        margin-left: -3px;
+        align-items: center;
     }
 
     .main__content_cube {
         margin-top: 10px;
     }
+
+    .btn-group {
+        display: flex;
+    }
+
 }

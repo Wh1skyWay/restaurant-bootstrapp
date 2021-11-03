@@ -91,9 +91,13 @@ table {
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
-  width: 155px;
+  width: 169px;
   border-left: 2px solid #fff;
   padding-left: 15px;
+}
+
+.header_phone img {
+  padding-right: 10px;
 }
 
 .header__contact {
@@ -227,4 +231,19 @@ table {
 
 .main__content_cube span {
   color: #BC9060;
+}
+
+.header__main_btn {
+  padding-top: 20px;
+}
+.header__main_btn button {
+ background-color: #FF7400
+}
+
+.nav {
+  align-items: center;
+}
+
+.btn-group {
+  display: none;
 }
